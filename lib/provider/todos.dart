@@ -45,4 +45,8 @@ List<Todo>_todos =[
   ),
 ];
 List<Todo> get todos => _todos.where((todo) =>todo.isDone==false ).toList();
+void addTodo(Todo todo){
+  _todos.add(todo);
+  notifyListeners();
+}
 }
