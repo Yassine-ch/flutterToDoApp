@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list_app/main.dart';
 import 'package:to_do_list_app/widget/add_todo_dialog.dart';
+import 'package:to_do_list_app/widget/completed_list_widget.dart';
 import 'package:to_do_list_app/widget/todo_list_widget.dart';
 class HomePage extends StatefulWidget {
 
@@ -17,7 +18,7 @@ class _HomePageState extends State<HomePage> {
      //bottomNavigationsTabs
      //ConatinerForTodos
      TodoListWidget(),
-     Container(),
+     CompletedListWidget(),
    ];
    return Scaffold(
      appBar: AppBar(
