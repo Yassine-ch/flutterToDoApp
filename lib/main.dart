@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
 
  title:title,
  theme:ThemeData(
-     primarySwatch: Colors.pink,
+     primarySwatch: Colors.blueGrey,
  scaffoldBackgroundColor: Color(0xFFf6f5ee),
      ),
   home:HomePage(),
